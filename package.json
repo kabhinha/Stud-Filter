@@ -1,0 +1,19 @@
+{
+  "name": "tweeter_dapp",
+  "version": "0.0.1",
+  "description": "Decentralied version of tweeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabhinha/tweeter-dApp.git"
+  },
+  "author": "Abhishek Malhotra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabhinha/tweeter-dApp/issues"
+  },
+  "homepage": "https://github.com/kabhinha/tweeter-dApp#readme"
+}
