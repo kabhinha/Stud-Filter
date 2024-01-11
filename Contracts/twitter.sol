@@ -64,7 +64,7 @@ contract Twitter {
         emit likedTweet(id, author, tweets[author][id].likes);
     }
 
-        function dislikeTweet(address author, uint256 id) external {
+    function dislikeTweet(address author, uint256 id) external {
         require(tweets[author][id].id == id, "Tweet doesn't exist");
         require(tweets[author][id].likes > 0, "There is no like");
         tweets[author][id].likes--;
